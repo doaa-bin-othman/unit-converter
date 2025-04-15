@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      Unit Converter
+    </title>
+    <link rel="stylesheet" href="unit-converter.css">
+  </head>
+  <body>
+    <h2>Unit Converter</h2>
+    <div>
+      <input placeholder="Enter number..." class="js-number-input enter-number" onkeydown="
+        if (event.key === 'Enter') {
+          convert();
+        }
+        ">
+      <select class="js-selector selector-bar">
+        <option value="kiloToMile">Kilometers to Miles</option>
+        <option value="mileToKilo">Miles to Kilometers</option>
+      </select>
+      <button onclick="
+        convert();
+      " class="convert-button">Convert</button>
+    </div>
+    <p class="js-output"></p>
+    
+    <script src="unit-converter.js"></script>
+  </body>
+</html>

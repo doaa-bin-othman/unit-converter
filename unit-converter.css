@@ -1,0 +1,56 @@
+body {
+  font-family: arial;
+  background-color: rgb(145, 215, 255);
+  padding: 20px;
+}
+
+div {
+  flex-wrap: nowrap;
+  display: flex;
+  column-gap: 10px;
+}
+
+h2 {
+  background-color: white;
+  padding: 20px 15px;
+  border-radius: 20px 20px 0 20px;
+  color: rgb(0, 0, 75);
+  max-width: 500px;
+  min-width: 374px;
+}
+
+.enter-number {
+  padding: 4px;
+  border-radius: 5px;
+  border: solid 1px;
+}
+
+.selector-bar {
+  padding: 4px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.convert-button {
+  background-color: white;
+  border: none ;
+  border-radius: 5px;
+  padding: 4px 10px;
+  cursor: pointer;
+  transition: background-color 0.15s;
+}
+
+.convert-button:hover {
+  background-color:lightgray ;
+}
+
+.convert-button:active {
+  background-color: gray;
+}
+
+p {
+  background-color: white;
+  display: inline-block;
+  padding: 10px;
+  border-radius: 5px;
+}
